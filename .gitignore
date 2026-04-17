@@ -1,5 +1,56 @@
+# =========================
+# 🔹 Python basics
+# =========================
 __pycache__/
-venv/
-.idea/
 *.pyc
+*.pyo
+*.pyd
+
+# =========================
+# 🔹 Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# 🔹 PyCharm / IDE files
+# =========================
+.idea/
+*.iml
+
+# =========================
+# 🔹 Jupyter Notebook junk
+# =========================
 .ipynb_checkpoints/
+
+# =========================
+# 🔹 OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔹 Data files (important)
+# =========================
+data/raw/
+# optional → uncomment if datasets are large
+# data/processed/
+
+# =========================
+# 🔹 Vector database (VERY important)
+# =========================
+vectorstore/
+chroma_db/
+
+# =========================
+# 🔹 Logs / temp
+# =========================
+*.log
+tmp/
+temp/
+
+# =========================
+# 🔹 Environment variables
+# =========================
+.env
